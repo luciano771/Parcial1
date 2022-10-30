@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Parcial1.exe" version="1.0.0.1" publicKeyToken="771e9e63c44375fb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Parcial1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Parcial1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Parcial1.exe" size="1215968">
+      <assemblyIdentity name="Parcial1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fdneHKRBYBKPsgAEXZc6Q1teKppXXfy9Pd3m/iSFjog=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Parcial1.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-JA29JCT\lucia" issuerKeyHash="20bb1c4eccf60866f6ce87c70ae2fff33f7ae602" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lQNdwpelATrNbNaH5ZpIhzNmakMLudUkRLRFDozIBJQ=</DigestValue></Reference></SignedInfo><SignatureValue>XWQ82VKd/rDlHwoWW0RxwHUMyoprrNgKpPSm5Z05iEI3UdSnuvoV2F2TmV4gn9JIzsd+E0UxVq3hCJT71J8Upb8fYftS0rUUmPbnu1jsHc2T1NwbYO7fQ3bqbp0ae1KVU6D3AJkePKbAKwTx5osBJ28dqNWjbN8Tx7REoEokoZA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rncdLu/MYnmeVT/DHqNmb+p4s9iB5sNUTzPe8rcEbJ0CRr/MtpHP7Gm5nXSkSK5732976tkTURAJ4nqNYg4dNYS6ef0fr4llwEFmaYKCFw8BgkIm5AjSvt5sFrWG9SqNaNBltkculpvOFq63hz5FuujKmG/g0o+p/LMhD53CmHk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9404c88c0e45b44424d5b90b436a663387489ae587d66ccd3a01a597c25d0395" Description="" Url=""><as:assemblyIdentity name="Parcial1.exe" version="1.0.0.1" publicKeyToken="771e9e63c44375fb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-JA29JCT\lucia</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vCADyWji3jlJdYXOzyGhJEeWZjpnuT8R9y8PVW04S90=</DigestValue></Reference></SignedInfo><SignatureValue>dfGbBQxpzO9am9kqvt0VDliWe/BR64lPYdY46I421r7ONdKueTXdEem48wD9ALKxou03JhdADxIJL2Luti4tPIjD6guwmujsP9P8ICfyecF07FXA63WqWxj7XyQfGCjdbtzUDGLQa5jdtriK4jyeLhNo/mu96kets894xjmNQnY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rncdLu/MYnmeVT/DHqNmb+p4s9iB5sNUTzPe8rcEbJ0CRr/MtpHP7Gm5nXSkSK5732976tkTURAJ4nqNYg4dNYS6ef0fr4llwEFmaYKCFw8BgkIm5AjSvt5sFrWG9SqNaNBltkculpvOFq63hz5FuujKmG/g0o+p/LMhD53CmHk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQSbU6cXZ3fKNJPhPYmiY8KzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEoAQQAyADkASgBDAFQAXABsAHUAYwBpAGEwHhcNMjIxMDMwMDUzNjQ5WhcNMjMxMDMwMTEzNjQ5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEoAQQAyADkASgBDAFQAXABsAHUAYwBpAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK53HS7vzGJ5nlU/wx6jZm/qeLPYgebDVE8z3vK3BGydAka/zLaRz+xpuZ10pEiue99ve+rZE1EQCeJ6jWIOHTWEunn9H6+JZcBBZmmCghcPAYJCJuQI0r7ebBa1hvUqjWjQZbZHLpabzhaut4c+Rbroyphv4NKPqfyzIQ+dwph5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEARQoyYm6zXD0AeahltY2qZl3/N3JipDF4kPjTRo8CnyjDf+LXNeBzQiPiAvnNeYs0Yrz+bibjv3bu966ox8esYORJxgOAnxY5eI/M0+kopvwB/S/zSO3JhrV3BMgnXyme0fY9MyUshd2QZN85tQH9EK0CDePBhoyLsoojm1CXIRQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
